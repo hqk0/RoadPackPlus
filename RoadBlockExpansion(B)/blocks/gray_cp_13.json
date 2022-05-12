@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "bse:gray_cp_13"
+      "identifier": "hako1152:gray_cp_13"
     },
     "components": {
       "minecraft:creative_category": {

@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "bse:white_cp_7"
+      "identifier": "hako1152:white_cp_7"
     },
     "components": {
       "minecraft:creative_category": {
@@ -10,7 +10,7 @@
         "group": "itemGroup.name.concretePowder"
       },
       "minecraft:loot": "loot_tables/blocks/white_cp_7_loot.json",
-      "minecraft:map_color": "#545454",
+      "minecraft:map_color": "#ffffff",
       "minecraft:geometry": "geometry.thin_7",
       "minecraft:material_instances": {
         "*": {
