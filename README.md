@@ -1,9 +1,8 @@
 # RoadBlockExpansion-Beta
 1/16サイズ〜16/16サイズの落下しない灰色と白色のコンクリートパウダーを追加します。
 
-Minecraft Bedrock Edition V1.18.30
-iPad Air 5
-で動作確認済み。
+iPadOS版 Minecraft Bedrock Edition V1.18.30で動作確認済み。
+(使用端末 iPad Air 5)
 
 # 使い方
 0. リポジトリの右にあるリリースのところから.mcaddonファイルをダウンロードします。
