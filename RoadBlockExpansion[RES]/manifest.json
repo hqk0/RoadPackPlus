@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "道路用ブロック追加パック",
+    "description": "ワールドの設定からホリデークリエイターの実験をonにすること。\n詳しい説明はreadmeに書いてあります。\nMade by hako1152",
+    "version": [1, 0, 0],
+    "uuid": "0cf6ac55-858e-4e75-8122-fa61b30980fc",
+    "min_engine_version": [1, 18, 30]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "description": "道路用ブロック追加パック モジュール",
+      "version": [1, 0, 0],
+      "uuid": "452bcb89-6c6f-4c59-93c2-ce673fd14aed"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "hako1152"
+    ],
+    "url": "http://hakohara.starfree.jp",
+    "license": "CC BY-NC-SA 4.0",
+    "generated_with": {
+      "TokaTools-Manifest-Generator": ["1.8.0"]
+    }
+  }
+}
