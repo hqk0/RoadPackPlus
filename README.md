@@ -11,5 +11,5 @@ iPadOS版 Minecraft Bedrock Edition V1.18.30で動作確認済み。
 3. このアドオンのリソースパックとビヘイビアパックそれぞれを有効にしてワールドを開くと、クリエイティブインベントリのコンクリートパウダーのところにブロックが追加されています。
 
 # ライセンス
-[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)
 ※ただし改変したものの配布・再配布をする場合はhako1152の名前を載せること。
