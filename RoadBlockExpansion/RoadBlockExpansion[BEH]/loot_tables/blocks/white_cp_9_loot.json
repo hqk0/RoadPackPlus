@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "hako1152:white_cp_9",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

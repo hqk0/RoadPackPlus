@@ -4,14 +4,14 @@
   "padding": 8,
   "num_mip_levels": 4,
   "texture_data": {
-    "gray_concrete_powder": {
-      "textures": "textures/blocks/gray_concrete_powder"
+    "gray": {
+      "textures": "textures/blocks/concrete_powder_gray"
     },
-    "white_concrete_powder": {
-      "textures": "textures/blocks/white_concrete_powder"
+    "white": {
+      "textures": "textures/blocks/concrete_powder_white"
     },
-    "orange_concrete_powder": {
-      "textures": "textures/blocks/orange_concrete_powder"
+    "orange": {
+      "textures": "textures/blocks/concrete_powder_orange"
     }
   }
 }

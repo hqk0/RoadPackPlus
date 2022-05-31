@@ -14,7 +14,7 @@
       "minecraft:geometry": "geometry.thin_10",
       "minecraft:material_instances": {
         "*": {
-          "texture": "white_concrete_powder",
+          "texture": "white",
           "render_method": "opaque"
         }
       },
