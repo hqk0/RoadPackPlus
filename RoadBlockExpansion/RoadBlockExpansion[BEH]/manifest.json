@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "name": "道路用ブロック追加パックbeta",
-    "description": "β版です。\nワールドの設定からホリデークリエイターの実験をonにすること。\n詳しい説明はreadmeに書いてあります。\nMade by hako1152",
-    "version": [0, 0, 1],
+    "name": "道路用ブロック追加パック V1.0.0 [BEH]",
+    "description": "ワールドの設定からホリデークリエイターの実験をonにすること。\n詳しい説明はreadmeに書いてあります。\nMade by hako1152",
+    "version": [1, 0, 0],
     "uuid": "58a11caf-40f2-41c2-84dd-62bf86f4cc3c",
     "min_engine_version": [1, 18, 12]
   },
@@ -11,7 +11,7 @@
     {
       "type": "data",
       "description": "モジュール",
-      "version": [0, 0, 1],
+      "version": [1, 0, 0],
       "uuid": "d7419469-ca4a-4c25-866e-ccd6b5e1e145"
     }
   ],
