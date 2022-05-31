@@ -1,21 +1,26 @@
 {
   "format_version": 2,
   "header": {
-    "name": "道路用ブロック追加パック V1.0.0 [BEH]",
-    "description": "ワールドの設定からホリデークリエイターの実験をonにすること。\n詳しい説明はreadmeに書いてあります。\nMade by hako1152",
+    "name": "道路用ブロック追加パック §aV1.0.0 [BEH]",
+    "description": "ワールドの設定からホリデークリエイターの実験をonにすること。\nBy §b@hako1152",
     "version": [1, 0, 0],
-    "uuid": "58a11caf-40f2-41c2-84dd-62bf86f4cc3c",
-    "min_engine_version": [1, 18, 12]
+    "uuid": "ce4784db-f31d-4059-a795-60187334f05c",
+    "min_engine_version": [1, 13, 0]
   },
   "modules": [
     {
       "type": "data",
       "description": "モジュール",
       "version": [1, 0, 0],
-      "uuid": "d7419469-ca4a-4c25-866e-ccd6b5e1e145"
+      "uuid": "f34d8e29-23c0-49e8-809b-362b2a72126d"
     }
   ],
   "metadata": {
+    "authors": [
+      "hako1152"
+    ],
+    "url": "https://github.com/hako1152",
+    "license": "CC-BY-SA-4.0",
     "generated_with": {
       "TokaTools-Manifest-Generator": ["1.8.0"]
     }
