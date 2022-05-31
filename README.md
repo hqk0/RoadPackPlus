@@ -4,6 +4,11 @@
 iPadOS版 Minecraft Bedrock Edition V1.18.30で動作確認済み。
 (使用端末 iPad Air 5)
 
+# What's New! - 新着情報!
+## 5/31 V1.0.0 Update 
+- ルートテーブルを追加しました。
+- パックアイコンを更新しました。
+
 # How to use - 使い方
 0. リポジトリの右にあるリリースのところから.mcaddonファイルをダウンロードします。
 1. アドオンをインポートします。
@@ -11,4 +16,4 @@ iPadOS版 Minecraft Bedrock Edition V1.18.30で動作確認済み。
 3. このアドオンのリソースパックとビヘイビアパックそれぞれを有効にしてワールドを開くと、クリエイティブインベントリのコンクリートパウダーのところにブロックが追加されています。
 
 # License - ライセンス
-[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)
+[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)
