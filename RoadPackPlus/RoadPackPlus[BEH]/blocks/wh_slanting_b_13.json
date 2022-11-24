@@ -44,7 +44,7 @@
         "size": [ 16, 13, 16 ]
       },
       "minecraft:block_light_absorption": 1,
-      "minecraft:explosion_resistance": 100,
+      "minecraft:explosion_resistance": 6400,
       "minecraft:friction": 0.6,
       "minecraft:flammable": {
         "flame_odds": 0,

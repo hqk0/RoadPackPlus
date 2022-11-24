@@ -1,0 +1,55 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "HakoMC:gray_line_slanting_d_5"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "Construction",
+        "group": "itemGroup.name.concretePowder"
+      },
+      "minecraft:loot": "",
+      "minecraft:map_color": "#ffffff",
+      "minecraft:geometry": "geometry.thin_5",
+      "minecraft:material_instances": {
+        "*": {
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "wh_slanting_d"
+        },
+        "north": {
+          "texture": "wh_thin_a"
+        },
+        "south": {
+          "texture": "gray"
+        },
+        "west": {
+          "texture": "gray"
+        },
+        "east": {
+          "texture": "wh_thin_a"
+        },
+        "down": {
+          "texture": "gray"
+        }
+      },
+      "minecraft:entity_collision": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 5, 16 ]
+      },
+      "minecraft:pick_collision": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 5, 16 ]
+      },
+      "minecraft:block_light_absorption": 1,
+      "minecraft:explosion_resistance": 6400,
+      "minecraft:friction": 0.6,
+      "minecraft:flammable": {
+        "flame_odds": 0,
+        "burn_odds": 0
+      }
+    }
+  }
+}
