@@ -1,0 +1,35 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "gray": {
+      "textures": "textures/blocks/concrete_powder_gray"
+    },
+    "white": {
+      "textures": "textures/blocks/concrete_powder_white"
+    },
+    "orange": {
+      "textures": "textures/blocks/concrete_powder_orange"
+    },
+    "wh_thin_a": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_thin_a"
+    },
+    "wh_thin_b": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_thin_b"
+    },
+    "wh_thick_a": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_thick_a"
+    },
+    "wh_thick_b": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_thick_b"
+    },
+    "wh_slanting_a": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_slanting_a"
+    },
+    "wh_slanting_b": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_slanting_b"
+    }
+  }
+}

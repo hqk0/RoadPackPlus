@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Road Pack Plus [BEH] §aV2.0.0 §bBeta.1",
+    "description": "1/16~16/16サイズの落下しないコンクリートパウダーなどの道路に使えるブロックを追加します。\n§eホリデークリエイターの実験を有効化してください。",
+    "version": [1, 0, 0],
+    "uuid": "7a0a971a-62bf-4a18-8677-64620b97961c",
+    "min_engine_version": [1, 16, 100]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "description": "RPP Data Module",
+      "version": [1, 0, 0],
+      "uuid": "dd28e54b-cb7c-4577-9b8a-2bfb8848e7f8"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "HakoMC"
+    ],
+    "url": "http://hako.ml",
+    "license": "CC-BY-SA-4.0",
+    "generated_with": {
+      "TokaTools-Manifest-Generator": ["1.8.0"]
+    }
+  }
+}
