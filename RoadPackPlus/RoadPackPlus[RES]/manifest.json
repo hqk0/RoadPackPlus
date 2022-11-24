@@ -1,25 +1,25 @@
 {
   "format_version": 2,
   "header": {
-    "name": "道路用ブロック追加パック §aV1.0.0 [RES]",
-    "description": "ワールドの設定からホリデークリエイターの実験をonにすること。\nBy §b@hako1152",
+    "name": "Road Pack Plus [RES] §aV2.0.0 §bBeta.1",
+    "description": "1/16~16/16サイズの落下しないコンクリートパウダーなどの道路に使えるブロックを追加します。\n§eホリデークリエイターの実験を有効化してください。",
     "version": [1, 0, 0],
-    "uuid": "b5c9acd0-b1e1-4e90-9659-789014fc6887",
-    "min_engine_version": [1, 13, 0]
+    "uuid": "e5d29c61-3096-4c0e-abdd-e0f7c7e0eaa0",
+    "min_engine_version": [1, 16, 100]
   },
   "modules": [
     {
       "type": "resources",
-      "description": "モジュール",
+      "description": "RPP Resources Module",
       "version": [1, 0, 0],
-      "uuid": "c321dc9c-e7be-41a9-9710-d8d27eb802bc"
+      "uuid": "1a19da72-8756-46eb-a807-2a5e33854796"
     }
   ],
   "metadata": {
     "authors": [
-      "hako1152"
+      "HakoMC"
     ],
-    "url": "https://github.com/hako1152",
+    "url": "http://hako.ml",
     "license": "CC-BY-SA-4.0",
     "generated_with": {
       "TokaTools-Manifest-Generator": ["1.8.0"]
