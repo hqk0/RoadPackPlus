@@ -14,7 +14,7 @@
       "minecraft:geometry": "geometry.thin_15",
       "minecraft:material_instances": {
         "*": {
-          "render_method": "blend"
+          "render_method": "opaque"
         },
         "up": {
           "texture": "wh_thick_a"
@@ -43,8 +43,8 @@
         "origin": [ -8, 0, -8 ],
         "size": [ 16, 15, 16 ]
       },
-      "minecraft:block_light_absorption": 16,
-      "minecraft:explosion_resistance": 100,
+      "minecraft:block_light_absorption": 1,
+      "minecraft:explosion_resistance": 6400,
       "minecraft:friction": 0.6,
       "minecraft:flammable": {
         "flame_odds": 0,

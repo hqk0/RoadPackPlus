@@ -15,7 +15,7 @@
       "minecraft:material_instances": {
         "*": {
           "texture": "gray",
-          "render_method": "blend"
+          "render_method": "opaque"
         }
       },
       "minecraft:entity_collision": {
@@ -26,8 +26,8 @@
         "origin": [ -8, 0, -8 ],
         "size": [ 16, 9, 16 ]
       },
-      "minecraft:block_light_absorption": 16,
-      "minecraft:explosion_resistance": 100,
+      "minecraft:block_light_absorption": 1,
+      "minecraft:explosion_resistance": 6400,
       "minecraft:friction": 0.6,
       "minecraft:flammable": {
         "flame_odds": 0,

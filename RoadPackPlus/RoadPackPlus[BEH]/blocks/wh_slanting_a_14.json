@@ -14,13 +14,13 @@
       "minecraft:geometry": "geometry.thin_14",
       "minecraft:material_instances": {
         "*": {
-          "render_method": "blend"
+          "render_method": "opaque"
         },
         "up": {
           "texture": "wh_slanting_a"
         },
         "north": {
-          "texture": "wh_thin_a"
+          "texture": "gray"
         },
         "south": {
           "texture": "wh_thin_a"
@@ -29,7 +29,7 @@
           "texture": "gray"
         },
         "east": {
-          "texture": "gray"
+          "texture": "wh_thin_a"
         },
         "down": {
           "texture": "gray"
@@ -43,8 +43,8 @@
         "origin": [ -8, 0, -8 ],
         "size": [ 16, 14, 16 ]
       },
-      "minecraft:block_light_absorption": 16,
-      "minecraft:explosion_resistance": 100,
+      "minecraft:block_light_absorption": 1,
+      "minecraft:explosion_resistance": 6400,
       "minecraft:friction": 0.6,
       "minecraft:flammable": {
         "flame_odds": 0,
