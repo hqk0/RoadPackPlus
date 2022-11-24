@@ -2,20 +2,20 @@
   "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "hako1152:gray_cp_7"
+      "identifier": "HakoMC:gray_cp_7"
     },
     "components": {
       "minecraft:creative_category": {
-        "category": "construction",
+        "category": "Construction",
         "group": "itemGroup.name.concretePowder"
       },
-      "minecraft:loot": "loot_tables/blocks/gray_cp_7_loot.json",
+      "minecraft:loot": "",
       "minecraft:map_color": "#545454",
       "minecraft:geometry": "geometry.thin_7",
       "minecraft:material_instances": {
         "*": {
           "texture": "gray",
-          "render_method": "opaque"
+          "render_method": "blend"
         }
       },
       "minecraft:entity_collision": {
@@ -26,11 +26,13 @@
         "origin": [ -8, 0, -8 ],
         "size": [ 16, 7, 16 ]
       },
-      "minecraft:destroy_time": 1,
+      "minecraft:block_light_absorption": 16,
       "minecraft:explosion_resistance": 100,
-      "minecraft:block_light_absorption": 0,
-      "minecraft:block_light_emission": 0,
-      "minecraft:friction": 0.6
+      "minecraft:friction": 0.6,
+      "minecraft:flammable": {
+        "flame_odds": 0,
+        "burn_odds": 0
+      }
     }
   }
 }
