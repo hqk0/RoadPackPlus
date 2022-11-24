@@ -12,6 +12,18 @@
     },
     "orange": {
       "textures": "textures/blocks/concrete_powder_orange"
+    },
+    "wh_thin": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_thin"
+    },
+    "wh_thick": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_thick"
+    },
+    "wh_slanting_A": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_slanting_A"
+    },
+    "wh_slanting_B": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_slanting_B"
     }
   }
 }
