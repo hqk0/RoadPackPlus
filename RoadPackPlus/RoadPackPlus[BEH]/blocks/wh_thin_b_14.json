@@ -14,7 +14,7 @@
       "minecraft:geometry": "geometry.thin_14",
       "minecraft:material_instances": {
         "*": {
-          "render_method": "blend"
+          "render_method": "opaque"
         },
         "up": {
           "texture": "wh_thin_b"
