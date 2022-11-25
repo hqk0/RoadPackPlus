@@ -20,16 +20,16 @@
           "texture": "wh_slanting_c"
         },
         "north": {
-          "texture": "gray"
+          "texture": "wh_thin_a"
         },
         "south": {
-          "texture": "wh_thin_a"
+          "texture": "gray"
         },
         "west": {
-          "texture": "wh_thin_a"
+          "texture": "gray"
         },
         "east": {
-          "texture": "gray"
+          "texture": "wh_thin_a"
         },
         "down": {
           "texture": "gray"

@@ -5,7 +5,7 @@ iPadOS版 Minecraft Bedrock Edition V1.19.40で動作確認済み。
 (使用端末 iPad Air 5)
 
 # What's new - 新着情報
-11/24 V2.0.0 Update
+11/25 V2.0.0 Update
 - パック名を変更しました。
 - 最新バージョンに最適化しました。
 - ルートテーブルは削除されました。
