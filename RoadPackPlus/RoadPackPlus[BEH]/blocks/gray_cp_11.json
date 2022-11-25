@@ -5,6 +5,7 @@
       "identifier": "HakoMC:gray_cp_11"
     },
     "components": {
+      "tag:stone": {},
       "minecraft:creative_category": {
         "category": "Construction",
         "group": "itemGroup.name.concretePowder"

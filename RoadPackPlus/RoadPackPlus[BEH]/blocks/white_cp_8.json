@@ -5,6 +5,7 @@
       "identifier": "HakoMC:white_cp_8"
     },
     "components": {
+      "tag:stone": {},
       "minecraft:creative_category": {
         "category": "Construction",
         "group": "itemGroup.name.concretePowder"
