@@ -43,7 +43,7 @@
         "origin": [ -8, 0, -8 ],
         "size": [ 16, 8, 16 ]
       },
-      "minecraft:block_light_absorption": 1,
+      "minecraft:block_light_absorption": 0,
       "minecraft:explosion_resistance": 6400,
       "minecraft:friction": 0.6,
       "minecraft:flammable": {
