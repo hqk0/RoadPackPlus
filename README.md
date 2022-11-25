@@ -23,3 +23,6 @@ iPadOS版 Minecraft Bedrock Edition V1.19.40で動作確認済み。
 
 # License - ライセンス
 MIT License
+
+---
+© 2022 Hako
