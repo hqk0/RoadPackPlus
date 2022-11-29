@@ -1,26 +1,26 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Road Pack Plus [BEH] §aV2.0.0 §bBeta.2",
-    "description": "1/16~16/16サイズの落下しないコンクリートパウダーなどの道路に使えるブロックを追加します。\n§eホリデークリエイターの実験を有効化してください。",
-    "version": [1, 0, 1],
-    "uuid": "7a0a971a-62bf-4a18-8677-64620b97961c",
+    "name": "Road Pack Plus [BEH] §aV2.0.0",
+    "description": "§eホリデークリエイターの実験を有効にしてください。\n§f1/16サイズ〜16/16サイズの落下しない灰色・白色・オレンジ色のコンクリートパウダーと、縦・横・斜め（4種類）の白線入りの灰色のコンクリートパウダーを追加します。\n§b© 2022 Hako",
+    "version": [2, 0, 0],
+    "uuid": "fd856cb1-c426-41ef-9d56-b91ded35cdbf",
     "min_engine_version": [1, 16, 100]
   },
   "modules": [
     {
       "type": "data",
-      "description": "RPP Data Module",
-      "version": [1, 0, 1],
-      "uuid": "dd28e54b-cb7c-4577-9b8a-2bfb8848e7f8"
+      "description": "RPP Module V2",
+      "version": [2, 0, 0],
+      "uuid": "8264c74b-2252-465a-90d1-296a0e7b9ad2"
     }
   ],
   "metadata": {
     "authors": [
-      "hakomc"
+      "Hako"
     ],
     "url": "http://hako.ml",
-    "license": "MIT LICENSE",
+    "license": "MIT license",
     "generated_with": {
       "TokaTools-Manifest-Generator": ["1.8.0"]
     }
