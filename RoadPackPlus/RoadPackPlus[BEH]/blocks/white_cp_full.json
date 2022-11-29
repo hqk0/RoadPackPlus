@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "HakoMC:white_cp_full"
+      "identifier": "hakomc:white_cp_full"
     },
     "components": {
       "tag:stone": {},

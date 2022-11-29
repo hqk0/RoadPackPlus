@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "HakoMC:gray_line_thick_a_2"
+      "identifier": "hakomc:gray_line_thick_a_2"
     },
     "components": {
       "tag:stone": {},

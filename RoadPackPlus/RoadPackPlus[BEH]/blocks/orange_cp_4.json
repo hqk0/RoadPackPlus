@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "HakoMC:orange_cp_4"
+      "identifier": "hakomc:orange_cp_4"
     },
     "components": {
       "tag:stone": {},

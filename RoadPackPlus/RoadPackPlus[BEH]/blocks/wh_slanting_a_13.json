@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "HakoMC:gray_line_slanting_a_13"
+      "identifier": "hakomc:gray_line_slanting_a_13"
     },
     "components": {
       "tag:stone": {},
