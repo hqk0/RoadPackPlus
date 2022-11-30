@@ -38,40 +38,40 @@
       "minecraft:flammable": {
         "flame_odds": 0,
         "burn_odds": 0
-      },
-      "events": {
-        "hakomc:block_placed": {
-          "set_block_property": {
-            "hakomc:block_facing": "query.cardinal_facing_2d"
-          }
+      }
+    },
+    "events": {
+      "hakomc:block_placed": {
+        "set_block_property": {
+          "hakomc:block_facing": "query.cardinal_facing_2d"
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('hakomc:block_facing') == 2",
+        "components": {
+          "minecraft:rotation": [0, 180, 0]
         }
       },
-      "permutations": [
-        {
-          "condition": "query.block_property('hakomc:block_facing') == 2",
-          "components": {
-            "minecraft:rotation": [0, 180, 0]
-          }
-        },
-        {
-          "condition": "query.block_property('hakomc:block_facing') == 3",
-          "components": {
-            "minecraft:rotation": [0, 0, 0]
-          }
-        },
-        {
-          "condition": "query.block_property('hakomc:block_facing') == 4",
-          "components": {
-            "minecraft:rotation": [0, 270, 0]
-          }
-        },
-        {
-          "condition": "query.block_property('hakomc:block_facing') == 5",
-          "components": {
-            "minecraft:rotation": [0, 90, 0]
-          }
+      {
+        "condition": "query.block_property('hakomc:block_facing') == 3",
+        "components": {
+          "minecraft:rotation": [0, 0, 0]
         }
-      ]
-    }
+      },
+      {
+        "condition": "query.block_property('hakomc:block_facing') == 4",
+        "components": {
+          "minecraft:rotation": [0, 270, 0]
+        }
+      },
+      {
+        "condition": "query.block_property('hakomc:block_facing') == 5",
+        "components": {
+          "minecraft:rotation": [0, 90, 0]
+        }
+      }
+    ]
   }
 }

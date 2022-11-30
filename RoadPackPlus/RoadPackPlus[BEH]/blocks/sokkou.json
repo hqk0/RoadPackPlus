@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "hakomc:saku_end_2",
+      "identifier": "hakomc:sokkou",
       "properties": {
         "hakomc:block_facing": [2, 3, 4, 5]
       }
@@ -14,7 +14,7 @@
       },
       "minecraft:loot": "",
       "minecraft:map_color": "#b0b0b0",
-      "minecraft:geometry": "geometry.saku_end_2",
+      "minecraft:geometry": "geometry.sokkou",
       "minecraft:material_instances": {
         "*": {
           "texture": "joukei1",
@@ -24,14 +24,8 @@
       "minecraft:on_player_placing": {
         "event": "hakomc:block_placed"
       },
-      "minecraft:entity_collision": {
-        "origin": [ -8, 0, -8 ],
-        "size": [ 5, 16, 16 ]
-      },
-      "minecraft:pick_collision": {
-        "origin": [ -8, 0, -8 ],
-        "size": [ 5, 16, 16 ]
-      },
+      "minecraft:entity_collision": true,
+      "minecraft:pick_collision": true,
       "minecraft:block_light_absorption": 0,
       "minecraft:explosion_resistance": 6400,
       "minecraft:friction": 0.6,

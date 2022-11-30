@@ -41,7 +41,7 @@ iPadOS版 Minecraft Bedrock Edition V1.19.50で動作確認済み。
 | /function road_line | 線の入ったブロック全８種類を最寄りのプレイヤーに与えます。 |
 | /function road_enseki | 縁石ブロック全３種類を最寄りのプレイヤーに与えます。 |
 | /function road_saku | 縁石一体型横断防止柵ブロック全４種類を最寄りのプレイヤーに与えます。 |
-| /function road_sokukou | 側溝ブロックを最寄りのプレイヤーに与えます。 |
+| /function road_sokkou | 側溝ブロックを最寄りのプレイヤーに与えます。 |
 | /function road_gray_1 | 1/16〜8/16サイズの灰色のコンクリートパウダーブロックを最寄りのプレイヤーに与えます。 |
 | /function road_gray_2 | 9/16〜16/16サイズの灰色のコンクリートパウダーブロックを最寄りのプレイヤーに与えます。 |
 | /fucntion road_white_1 | 1/16〜8/16サイズの白色のコンクリートパウダーブロックを最寄りのプレイヤーに与えます。 |
