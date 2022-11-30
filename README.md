@@ -64,4 +64,11 @@ iPadOS版 Minecraft Bedrock Edition V1.19.50で動作確認済み。
 MIT License
 
 ---
+
 © 2022 Hako
+
+---
+
+バージョンについて
+
+末尾の数字が3桁のものはベータ版です
