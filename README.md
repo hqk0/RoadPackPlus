@@ -4,6 +4,9 @@
 iPadOS版 Minecraft Bedrock Edition V1.19.50で動作確認済み。
 (使用端末 iPad Air 5)
 
+# 互換性
+Minecraft Bedrock Edtion V1.19.50 ~
+
 # What's new - 新着情報
 12/1 V2.1.0 Update
 - 側溝ブロックを追加しました。
