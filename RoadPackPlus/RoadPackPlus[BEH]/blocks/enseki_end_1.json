@@ -25,11 +25,11 @@
         "event": "hakomc:block_placed"
       },
       "minecraft:entity_collision": {
-        "origin": [ -8, 0, -8 ],
+        "origin": [ 3, 0, -8 ],
         "size": [ 5, 6, 16 ]
       },
       "minecraft:pick_collision": {
-        "origin": [ -8, 0, -8 ],
+        "origin": [ 3, 0, -8 ],
         "size": [ 5, 6, 16 ]
       },
       "minecraft:block_light_absorption": 0,
