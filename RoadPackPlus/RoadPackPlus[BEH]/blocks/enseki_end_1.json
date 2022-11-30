@@ -1,0 +1,77 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "hakomc:enseki_end_1",
+      "properties": {
+        "hakomc:block_facing": [2, 3, 4, 5]
+      }
+    },
+    "components": {
+      "tag:stone": {},
+      "minecraft:creative_category": {
+        "category": "Construction"
+      },
+      "minecraft:loot": "",
+      "minecraft:map_color": "#b0b0b0",
+      "minecraft:geometry": "geometry.enseki_end_1",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "joukei1",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:on_player_placing": {
+        "event": "hakomc:block_placed"
+      },
+      "minecraft:entity_collision": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 5, 6, 16 ]
+      },
+      "minecraft:pick_collision": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 5, 6, 16 ]
+      },
+      "minecraft:block_light_absorption": 0,
+      "minecraft:explosion_resistance": 6400,
+      "minecraft:friction": 0.6,
+      "minecraft:flammable": {
+        "flame_odds": 0,
+        "burn_odds": 0
+      },
+      "events": {
+        "hakomc:block_placed": {
+          "set_block_property": {
+            "hakomc:block_facing": "query.cardinal_facing_2d"
+          }
+        }
+      },
+      "permutations": [
+        {
+          "condition": "query.block_property('hakomc:block_facing') == 2",
+          "components": {
+            "minecraft:rotation": [0, 180, 0]
+          }
+        },
+        {
+          "condition": "query.block_property('hakomc:block_facing') == 3",
+          "components": {
+            "minecraft:rotation": [0, 0, 0]
+          }
+        },
+        {
+          "condition": "query.block_property('hakomc:block_facing') == 4",
+          "components": {
+            "minecraft:rotation": [0, 270, 0]
+          }
+        },
+        {
+          "condition": "query.block_property('hakomc:block_facing') == 5",
+          "components": {
+            "minecraft:rotation": [0, 90, 0]
+          }
+        }
+      ]
+    }
+  }
+}

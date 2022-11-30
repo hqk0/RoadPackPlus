@@ -1,17 +1,17 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Road Pack Plus [RES] §aV2.0.0",
-    "description": "§eホリデークリエイターの実験を有効にしてください。\n§f1/16サイズ〜16/16サイズの落下しない灰色・白色・オレンジ色のコンクリートパウダーと、縦・横・斜め（4種類）の白線入りの灰色のコンクリートパウダーを追加します。\n§b© 2022 Hako",
-    "version": [2, 0, 0],
+    "name": "Road Pack Plus [RES] §aV2.1.0 §bBeta.1",
+    "description": "§eホリデークリエイターの実験を有効にしてください。\n§f1/16サイズ〜16/16サイズの落下しない灰色・白色・オレンジ色のコンクリートパウダーと、縦・横・斜め（4種類）の白線入りの灰色のコンクリートパウダーなどを追加します。\n§b© 2022 Hako",
+    "version": [2, 1, 100],
     "uuid": "e3dbd62c-abc6-4068-8bc1-67e54516ff14",
     "min_engine_version": [1, 16, 100]
   },
   "modules": [
     {
       "type": "resources",
-      "description": "RPP Module V2",
-      "version": [2, 0, 0],
+      "description": "RPP Module V2.1",
+      "version": [2, 1, 100],
       "uuid": "0a6f7d50-f331-4d2d-852c-7cd5b12507dc"
     }
   ],
