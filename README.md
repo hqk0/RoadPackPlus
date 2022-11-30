@@ -9,6 +9,7 @@ iPadOS版 Minecraft Bedrock Edition V1.19.50で動作確認済み。
 - 側溝ブロックを追加しました。
 - 縁石ブロック(通常・右端・左端の３パターン)を追加しました。
 - 縁石一体型横断防止柵ブロック(通常・柱付き・右端・左端の４パターン)を追加しました。
+- functionをreplaceitemからgiveに変更しました。
 - 新たなfunctionを追加しました。
 
 11/29 V2.0.0 Update
