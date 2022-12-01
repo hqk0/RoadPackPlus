@@ -21,7 +21,6 @@
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 6.0
       },
-      "minecraft:display_name": "enseki_center",
       "minecraft:flammable": {
         "catch_chance_modifier": 0,
         "destroy_chance_modifier": 0
