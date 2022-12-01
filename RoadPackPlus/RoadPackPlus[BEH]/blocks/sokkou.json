@@ -57,13 +57,13 @@
       {
         "condition": "query.block_property('hakomc:facing') == 3",
         "components": {
-          "minecraft:rotation": [0, 90, 0]
+          "minecraft:rotation": [0, 180, 0]
         }
       },
       {
         "condition": "query.block_property('hakomc:facing') == 4",
         "components": {
-          "minecraft:rotation": [0, 180, 0]
+          "minecraft:rotation": [0, 90, 0]
         }
       },
       {
