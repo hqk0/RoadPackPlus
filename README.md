@@ -8,7 +8,7 @@ iPadOS版 Minecraft Bedrock Edition V1.19.50で動作確認済み。
 Minecraft Bedrock Edtion V1.19.50 ~
 
 # What's new - 新着情報
-12/1 V2.1.0 Update
+12/２ V2.1.0 Update
 - 側溝ブロックを追加しました。
 - 縁石ブロック(通常・右端・左端の３パターン)を追加しました。
 - 縁石一体型横断防止柵ブロック(通常・柱付き・右端・左端の４パターン)を追加しました。
