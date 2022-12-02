@@ -1,0 +1,26 @@
+{
+	"sokkou": {
+		"sound": "stone"
+	},
+    "saku_pole": {
+        "sound": "stone"
+    },
+    "saku_center": {
+        "sound": "stone"
+    },
+    "saku_end_1": {
+        "sound": "stone"
+    },
+    "saku_end_2": {
+        "sound": "stone"
+    },
+    "enseki_center": {
+        "sound": "stone"
+    },
+    "enseki_end_1": {
+        "sound": "stone"
+    },
+    "enseki_end_2": {
+        "sound": "stone"
+    }
+}

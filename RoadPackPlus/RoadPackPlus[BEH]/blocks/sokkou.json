@@ -1,0 +1,76 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "hakomc:sokkou",
+      "properties": {
+        "hakomc:facing": [ 2, 3, 4, 5 ]
+      },
+      "menu_category": {
+				"category": "construction"
+			}
+    },
+    "components": {
+      "minecraft:collision_box": true,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6400
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 6.0
+      },
+      "minecraft:flammable": {
+        "catch_chance_modifier": 0,
+        "destroy_chance_modifier": 0
+      },
+      "minecraft:friction": 0.4,
+      "minecraft:geometry": "geometry.sokkou",
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:loot": "",
+      "minecraft:map_color": "#b0b0b0",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "joukei1",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:selection_box": true,
+      "minecraft:on_player_placing": {
+        "event": "hakomc:placed"
+      }
+    },
+    "events": {
+      "hakomc:placed": {
+        "set_block_property": {
+          "hakomc:facing": "query.cardinal_facing_2d"
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('hakomc:facing') == 2",
+        "components": {
+          "minecraft:rotation": [0, 0, 0]
+        }
+      },
+      {
+        "condition": "query.block_property('hakomc:facing') == 3",
+        "components": {
+          "minecraft:rotation": [0, 180, 0]
+        }
+      },
+      {
+        "condition": "query.block_property('hakomc:facing') == 4",
+        "components": {
+          "minecraft:rotation": [0, 90, 0]
+        }
+      },
+      {
+        "condition": "query.block_property('hakomc:facing') == 5",
+        "components": {
+          "minecraft:rotation": [0, 270, 0]
+        }
+      }
+    ]
+  }
+}
