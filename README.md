@@ -1,24 +1,27 @@
 # RoadPackPlus
 1/16サイズ〜16/16サイズの落下しない灰色・白色・オレンジ色のコンクリートパウダーと、縦・横・斜め（4種類）の白線入りの灰色のコンクリートパウダー、側溝ブロック、縁石ブロックなどを追加します。
 
-iPadOS版 Minecraft Bedrock Edition V1.19.50
+iPadOS版 Minecraft Bedrock Edition V1.20.41
 
-Windows版 Minecraft Bedrock Edition V1.20.12
+Windows版 Minecraft Bedrock Edition V1.20.41
 
 において動作確認済み。
 
 # 互換性
-Minecraft Bedrock Edtion V1.19.50 ~
+Minecraft Bedrock Edtion V1.20.41 ~
 
 # What's new - 新着情報
-12/２ V2.1.0 Update
+2023/12/1 V3.0.0 Update
+- その他細かい修正。
+
+2022/12/2 V2.1.0 Update
 - 側溝ブロックを追加しました。
 - 縁石ブロック(通常・右端・左端の３パターン)を追加しました。
 - 縁石一体型横断防止柵ブロック(通常・柱付き・右端・左端の４パターン)を追加しました。
 - functionをreplaceitemからgiveに変更しました。
 - 新たなfunctionを追加しました。
 
-11/29 V2.0.0 Update
+2022/11/29 V2.0.0 Update
 - パック名を変更しました。
 - 最新バージョンに最適化しました。
 - ルートテーブルは削除されました。
@@ -26,7 +29,7 @@ Minecraft Bedrock Edtion V1.19.50 ~
 - ミップマップレベルを変更しました。
 - 22個のfunctionコマンドを追加しました。
 
-5/31 V1.0.0 Update 
+2022/5/31 V1.0.0 Update 
 - ルートテーブルを追加しました。
 - パックアイコンを更新しました。
 
