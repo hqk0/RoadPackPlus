@@ -1,28 +1,18 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Road Pack Plus [RES] §aV3.0.100",
+    "name": "Road Pack Plus [RES] §aV3.0 Beta.1",
     "description": "§eホリデークリエイターの実験を有効にしてください。\n§f1/16サイズ〜16/16サイズの落下しない灰色・白色・オレンジ色のコンクリートパウダーと、縦・横・斜め（4種類）の白線入りの灰色のコンクリートパウダーなどを追加します。\n§b© 2022 Hako",
     "version": [3, 0, 100],
     "uuid": "e3dbd62c-abc6-4068-8bc1-67e54516ff14",
-    "min_engine_version": [1, 20, 41]
+    "min_engine_version": [1, 21, 40]
   },
   "modules": [
     {
       "type": "resources",
-      "description": "RPP Module V3.0.100",
+      "description": "RP Module V3.0.100",
       "version": [3, 0, 100],
       "uuid": "0a6f7d50-f331-4d2d-852c-7cd5b12507dc"
     }
-  ],
-  "metadata": {
-    "authors": [
-      "Hako"
-    ],
-    "url": "http://hako.lol",
-    "license": "MIT license",
-    "generated_with": {
-      "TokaTools-Manifest-Generator": ["1.8.0"]
-    }
-  }
+  ]
 }
