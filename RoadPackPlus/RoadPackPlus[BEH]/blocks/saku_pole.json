@@ -1,19 +1,24 @@
 {
-  "format_version": "1.19.50",
+  "format_version": "1.20.20",
   "minecraft:block": {
     "description": {
       "identifier": "hakomc:saku_pole",
       "properties": {
-        "hakomc:facing": [ 2, 3, 4, 5 ]
+        "hakomc:facing": [2, 3, 4, 5]
       },
       "menu_category": {
-				"category": "construction"
-			}
+        "category": "construction"
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:facing_direction"]
+        }
+      }
     },
     "components": {
       "minecraft:collision_box": {
-        "origin": [ 3, 0, -8 ],
-        "size": [ 5, 16, 16 ]
+        "origin": [3, 0, -8],
+        "size": [5, 16, 16]
       },
       "minecraft:destructible_by_explosion": {
         "explosion_resistance": 6400
@@ -38,11 +43,8 @@
         }
       },
       "minecraft:selection_box": {
-        "origin": [ 3, 0, -8 ],
-        "size": [ 5, 16, 16 ]
-      },
-      "minecraft:on_player_placing": {
-        "event": "hakomc:placed"
+        "origin": [3, 0, -8],
+        "size": [5, 16, 16]
       }
     },
     "events": {
@@ -54,27 +56,35 @@
     },
     "permutations": [
       {
-        "condition": "query.block_property('hakomc:facing') == 2",
+        "condition": "query.block_state('hakomc:facing') == 2 || q.block_state('minecraft:facing_direction') == 'north' ",
         "components": {
-          "minecraft:rotation": [0, 270, 0]
+          "minecraft:transformation": {
+            "rotation": [0, 270, 0]
+          }
         }
       },
       {
-        "condition": "query.block_property('hakomc:facing') == 3",
+        "condition": "query.block_state('hakomc:facing') == 3 || q.block_state('minecraft:facing_direction') == 'south' ",
         "components": {
-          "minecraft:rotation": [0, 90, 0]
+          "minecraft:transformation": {
+            "rotation": [0, 90, 0]
+          }
         }
       },
       {
-        "condition": "query.block_property('hakomc:facing') == 4",
+        "condition": "query.block_state('hakomc:facing') == 4 || q.block_state('minecraft:facing_direction') == 'west' ",
         "components": {
-          "minecraft:rotation": [0, 0, 0]
+          "minecraft:transformation": {
+            "rotation": [0, 0, 0]
+          }
         }
       },
       {
-        "condition": "query.block_property('hakomc:facing') == 5",
+        "condition": "query.block_state('hakomc:facing') == 5 || q.block_state('minecraft:facing_direction') == 'east' ",
         "components": {
-          "minecraft:rotation": [0, 180, 0]
+          "minecraft:transformation": {
+            "rotation": [0, 180, 0]
+          }
         }
       }
     ]

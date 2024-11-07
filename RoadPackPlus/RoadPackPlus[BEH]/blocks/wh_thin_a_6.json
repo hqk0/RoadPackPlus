@@ -1,15 +1,11 @@
 {
-  "format_version": "1.16.100",
+  "format_version": "1.20.20",
   "minecraft:block": {
     "description": {
       "identifier": "hakomc:gray_line_thin_a_6"
     },
     "components": {
       "tag:stone": {},
-      "minecraft:creative_category": {
-        "category": "Construction",
-        "group": "itemGroup.name.concretePowder"
-      },
       "minecraft:loot": "",
       "minecraft:map_color": "#ffffff",
       "minecraft:geometry": "geometry.thin_6",
@@ -36,17 +32,19 @@
           "texture": "gray"
         }
       },
-      "minecraft:entity_collision": {
+      "minecraft:collision_box": {
         "origin": [ -8, 0, -8 ],
         "size": [ 16, 6, 16 ]
       },
-      "minecraft:pick_collision": {
+      "minecraft:selection_box": {
         "origin": [ -8, 0, -8 ],
         "size": [ 16, 6, 16 ]
       },
-      "minecraft:block_light_absorption": 0,
-      "minecraft:explosion_resistance": 6400,
-      "minecraft:friction": 0.6,
+      "minecraft:light_dampening": 0,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6400
+      },
+      "minecraft:friction": 0.4,
       "minecraft:flammable": {
         "flame_odds": 0,
         "burn_odds": 0
