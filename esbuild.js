@@ -15,7 +15,7 @@ const external = [
 esbuild
   .build({
     entryPoints: ["src/main.js"],
-    outfile: "BP/scripts/main.js",
+    outfile: "RoadPackPlus/RoadPackPlus[BEH]/scripts/main.js",
     bundle: true,
     minify: true,
     format: "esm",

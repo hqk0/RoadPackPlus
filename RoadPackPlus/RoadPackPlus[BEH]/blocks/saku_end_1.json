@@ -3,7 +3,7 @@
   "minecraft:block": {
     "description": {
       "identifier": "hakomc:saku_end_1",
-      "properties": {
+      "states": {
         "hakomc:facing": [2, 3, 4, 5]
       },
       "menu_category": {
@@ -45,13 +45,6 @@
       "minecraft:selection_box": {
         "origin": [3, 0, -8],
         "size": [5, 16, 16]
-      }
-    },
-    "events": {
-      "hakomc:placed": {
-        "set_block_property": {
-          "hakomc:facing": "query.cardinal_facing_2d"
-        }
       }
     },
     "permutations": [
