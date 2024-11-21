@@ -10,7 +10,7 @@ Windows版 Minecraft Bedrock Edition V1.21.40
 # 互換性
 Minecraft Bedrock Edtion V1.21.40 ~
 
-# What's new - 新着情報
+# 更新ログ
 2024/11/9 V3.0.0 Update
 - ホリデークリエイターの廃止に対応。
 - その他細かい修正。
@@ -34,17 +34,14 @@ Minecraft Bedrock Edtion V1.21.40 ~
 - ルートテーブルを追加しました。
 - パックアイコンを更新しました。
 
-# How to use - 使い方
+# 使い方
 0. [リリース](https://github.com/HakoMC/RoadPackPlus/releases)から最新版の.mcaddonファイルをダウンロードします。
 1. Minecraftにアドオンをインポートします。
 2. ワールドの設定画面を開き、ゲームの欄にあるホリデークリエイターの実験をonにしてください。するとワールドがコピーされます。(既にONになっている場合はこの手順は飛ばしてください。)
 3. このアドオンのリソースパックとビヘイビアパックそれぞれを有効にしてワールドを開くと、クリエイティブインベントリのコンクリートパウダーのところにブロックが追加されています。
 
-# License - ライセンス
-MIT License
+# ライセンス
+CC-BY-4.0
 
----
-
-© 2024 Hako
-
----
+# クレジット
+This addon includes elements from [Chest-UI](https://github.com/Herobrine643928/Chest-UI) by Herobrine64 & LeGend077 under CC BY 4.0 license.

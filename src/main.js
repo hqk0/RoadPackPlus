@@ -10,19 +10,19 @@ world.afterEvents.itemUse.subscribe((ev) => {
 });
 
 function primaryMenu(player) {
-  new ChestFormData("9")
+  new ChestFormData("54")
     .title("§l§aMain Menu")
     .button(
       1,
       "§l§3Test Item 1",
       ["", "§r§7A testing item", "Click any item!"],
-      "minecraft:filled_end_portal_frame",
+      "hakomc:white_cp_full",
     )
     .button(
       4,
       "§l§bTest Item 2",
       ["", "§r§7Another item", "Click any item!"],
-      "minecraft:gold_ore",
+      "hakomc:enseki_center",
       64,
       true,
     )

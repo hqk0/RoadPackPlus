@@ -5,7 +5,7 @@
   "num_mip_levels": 2,
   "texture_data": {
     "gray": {
-    "textures": "textures/blocks/concrete_powder_gray"
+      "textures": "textures/blocks/concrete_powder_gray"
     },
     "white": {
       "textures": "textures/blocks/concrete_powder_white"
