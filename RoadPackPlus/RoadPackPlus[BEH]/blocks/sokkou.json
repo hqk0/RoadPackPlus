@@ -6,9 +6,6 @@
       "states": {
         "hakomc:facing": [2, 3, 4, 5]
       },
-      "menu_category": {
-        "category": "construction"
-      },
       "traits": {
         "minecraft:placement_direction": {
           "enabled_states": ["minecraft:facing_direction"]

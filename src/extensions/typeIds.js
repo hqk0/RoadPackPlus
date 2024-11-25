@@ -1709,7 +1709,7 @@ export const typeIdToID = new Map([
 	['minecraft:log2', 768],
 	['minecraft:monster_egg', 769],
 	['minecraft:concrete', 770],
-	['minecraft:concrete_powder', 771],
+	//['minecraft:concrete_powder', 771],
 	['minecraft:stained_glass', 772],
 	['minecraft:stained_glass_pane', 773],
 	['minecraft:shulker_box', 774],

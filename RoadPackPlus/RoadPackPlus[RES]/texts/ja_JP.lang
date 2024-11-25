@@ -180,5 +180,5 @@ tile.hakomc:enseki_end_1.name=縁石ブロック(右端)
 tile.hakomc:enseki_end_2.name=縁石ブロック(左端)
 tile.hakomc:saku_center.name=縁石一体型横断防止柵
 tile.hakomc:saku_pole.name=縁石一体型横断防止柵(柱あり)
-tile.hakomc:saku_end_1.name=縁石一体型横断防止柵(右端)
-tile.hakomc:saku_end_2.name=縁石一体型横断防止柵(左端)
+tile.hakomc:saku_end_1.name=縁石一体型横断防止柵(左端)
+tile.hakomc:saku_end_2.name=縁石一体型横断防止柵(右端)
