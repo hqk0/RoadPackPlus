@@ -23,17 +23,6 @@ esbuild
   })
   .then(() => {
     console.log("Bundling finished!");
-
-    // Command to execute copy.sh
-    const command = `./copy.sh`;
-
-    exec(command, (error, stdout, stderr) => {
-      if (error) {
-        console.error(`Error executing copy: ${stderr}`);
-        return;
-      }
-      console.log(`copy executed successfully: ${stdout}`);
-    });
   })
   .catch((error) => {
     console.error(error);
