@@ -10,8 +10,8 @@ Windows版 Minecraft Bedrock Edition V1.21.40
 
 # 対応バージョン
 
-V3.0.0 - Minecraft Bedrock Edition V1.21.40以降 (1.21.20でハテナブロックに置き換わってしまったブロックも、上からV3.0.0を導入することで復活させることができます。)
-V2.1.0 - Minecraft Bedrock Edition V1.21.1まで
+- V3.0.0 - Minecraft Bedrock Edition V1.21.40以降 (1.21.20でハテナブロックに置き換わってしまったブロックも、上からV3.0.0を導入することで復活させることができます。)
+- V2.1.0 - Minecraft Bedrock Edition V1.21.1まで
 
 # 使い方
 
@@ -21,7 +21,7 @@ V2.1.0 - Minecraft Bedrock Edition V1.21.1まで
 
 # 更新ログ
 
-2024/11/25 V3.0.0 Update
+2024/11/30 V3.0.0 Update
 
 - ホリデークリエイターの廃止に対応。実験要素はなにもオンにしなくても使えるように！
 - functionを削除し、GUIでのブロック取得に変更。
