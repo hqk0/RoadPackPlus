@@ -1,4 +1,5 @@
 import { world } from "@minecraft/server";
+import { ActionFormData } from "@minecraft/server-ui";
 import { ChestFormData } from "./extensions/forms.js";
 
 const onUseOnItemComponent = {
@@ -19,6 +20,9 @@ world.afterEvents.itemUse.subscribe((ev) => {
   switch (ev.itemStack.typeId) {
     case "hakomc:cp_menu":
       homeMenu(ev.source);
+      break;
+    case "hakomc:nomal_cp_menu":
+      nomalHomeMenu(ev.source);
       break;
     default:
       break;
@@ -205,6 +209,28 @@ function homeMenu(player) {
           break;
       }
     });
+}
+
+function nomalHomeMenu(player) {
+  const form = new ActionFormData()
+    .title("道路向け追加ブロックメニュー")
+    .button(
+      "§l灰色のコンクリートパウダー\n§r§71/16〜16/16サイズ クリックで一覧を表示",
+      "textures/ui_items/stick",
+    )
+    .button(
+      "§l灰色のコンクリートパウダー\n§r§81/16〜16/16サイズ クリックで一覧を表示",
+      "textures/ui_items/stick",
+    );
+
+  form.show(player).then((response) => {
+    switch (response.selection) {
+      case 0:
+        break;
+      default:
+        break;
+    }
+  });
 }
 
 function grayMenu(player) {

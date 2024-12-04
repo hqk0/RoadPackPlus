@@ -2,7 +2,7 @@
   "format_version": "1.21.40",
   "minecraft:item": {
     "description": {
-      "identifier": "hakomc:cp_menu",
+      "identifier": "hakomc:nomal_cp_menu",
       "menu_category": {
         "category": "construction"
       }
@@ -18,7 +18,7 @@
         "value": true
       },
       "minecraft:display_name": {
-        "value": "道路向け追加ブロックメニュー (チェストUI)"
+        "value": "道路向け追加ブロックメニュー (ノーマルUI)"
       }
     }
   }
