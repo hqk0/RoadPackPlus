@@ -10,10 +10,6 @@
         "minecraft:placement_direction": {
           "enabled_states": ["minecraft:facing_direction"]
         }
-      },
-      "menu_category": {
-        "category": "construction",
-        "group": "hako:itemGroup.hako.enseki"
       }
     },
     "components": {
