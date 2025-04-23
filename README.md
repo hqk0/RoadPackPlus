@@ -2,16 +2,17 @@
 
 1/16サイズ〜16/16サイズの落下しない灰色・白色・オレンジ色のコンクリートパウダーと、縦・横・斜め（4種類）の白線入りの灰色のコンクリートパウダー、側溝ブロック、縁石ブロックなどを追加します。
 
-iPadOS版・Windows版 Minecraft Bedrock Edition V1.21.40
+動作確認済み端末
 
-Android版 Minecraft Bedrock Edition V1.21.50
+- iPadOS版・Windows版 Minecraft Bedrock Edition V1.21.40
 
-において動作確認済み。
+- Android版 Minecraft Bedrock Edition V1.21.50
 
 # 対応バージョン
 
 | アドオン                                                             | マイクラ     | 備考                                                                                                            |
 | -------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------- |
+| [V4.0.0](https://github.com/HakoMC/RoadPackPlus/releases/tag/V4.0.0) | V1.21.70以降 |                                                                                                                 |
 | [V3.0.0](https://github.com/HakoMC/RoadPackPlus/releases/tag/V3.0.0) | V1.21.40以降 | 1.21.20でハテナブロックに置き換わってしまったブロックも、上からV3.0.0を導入することで復活させることができます。 |
 | [V2.1.0](https://github.com/HakoMC/RoadPackPlus/releases/tag/V2.1.0) | V1.21.1まで  | ホリデークリエイターの削除により、1.21.20では非対応。                                                           |
 
@@ -22,6 +23,12 @@ Android版 Minecraft Bedrock Edition V1.21.50
 2. このアドオンのリソースパックとビヘイビアパックそれぞれを有効にしてワールドを開くと、クリエイティブインベントリの構築タブにメニューアイテムが追加されています。それを持って右クリックすることで、メニューを開くことができます。
 
 # 更新ログ
+
+2025/4/24 V4.0.0 Update
+
+- フォームの使用を廃止し、クリエイティブインベントリから各種ブロックを取得できるようになりました。
+- 調整ツールではブロックを壊せなくしました。
+- 調整ツールをスタックできなくしました。
 
 2024/11/30 V3.0.0 Update
 
@@ -55,7 +62,3 @@ Android版 Minecraft Bedrock Edition V1.21.50
 # ライセンス
 
 CC-BY-4.0
-
-# クレジット
-
-This addon includes elements from [Chest-UI](https://github.com/Herobrine643928/Chest-UI) by Herobrine64 & LeGend077 under CC BY 4.0 license.
