@@ -6,14 +6,14 @@
     },
     "components": {
       "minecraft:custom_components": ["hakomc:onuseon"],
-      "minecraft:max_stack_size": 64,
+      "minecraft:max_stack_size": 1,
       "minecraft:icon": {
         "textures": {
           "default": "block_change_num_8"
         }
       },
-      "minecraft:glint": {
-        "value": true
+      "minecraft:can_destroy_in_creative": {
+        "value": false
       },
       "minecraft:display_name": {
         "value": "8段変更"

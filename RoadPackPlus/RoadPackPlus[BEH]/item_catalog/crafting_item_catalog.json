@@ -286,6 +286,24 @@
             ]
           }
         ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "hakomc:block_change_num_8",
+              "name": "hakomc:block_change"
+            },
+            "items": [
+              "hakomc:block_change_num_1",
+              "hakomc:block_change_num_2",
+              "hakomc:block_change_num_4",
+              "hakomc:block_change_num_8",
+              "hakomc:block_change_rotate"
+            ]
+          }
+        ]
       }
     ]
   }
