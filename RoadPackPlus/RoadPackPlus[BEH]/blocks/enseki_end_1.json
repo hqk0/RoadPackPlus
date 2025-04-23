@@ -1,5 +1,5 @@
 {
-  "format_version": "1.20.20",
+  "format_version": "1.21.70",
   "minecraft:block": {
     "description": {
       "identifier": "hakomc:enseki_end_1",
@@ -10,6 +10,10 @@
         "minecraft:placement_direction": {
           "enabled_states": ["minecraft:facing_direction"]
         }
+      },
+      "menu_category": {
+        "category": "construction",
+        "group": "hako:itemGroup.hako.enseki"
       }
     },
     "components": {
