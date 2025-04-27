@@ -195,3 +195,5 @@ hakomc:gray_line_slanting_c=左下に斜めの白線が入った§a落下しな�
 hakomc:gray_line_slanting_d=右上に斜めの白線が入った§a落下しない§f灰色のコンクリートパウダー§e1/16~16/16サイズ
 hakomc:tokushu=側溝など特殊ブロック
 hakomc:block_change=調整ツール
+tile.hakomc:gray_line_thin_multi.name=向いている方向に設置できる細い白線が入った§a落下しない§f灰色のコンクリートパウダー
+hakomc:gray_line_thin_multi=向いている方向に設置できる細い白線が入った§a落下しない§f灰色のコンクリートパウダー

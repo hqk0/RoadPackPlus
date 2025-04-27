@@ -79,54 +79,6 @@
           },
           {
             "group_identifier": {
-              "icon": "hakomc:gray_line_thin_a_full",
-              "name": "hakomc:gray_line_thin_a"
-            },
-            "items": [
-              "hakomc:gray_line_thin_a_1",
-              "hakomc:gray_line_thin_a_2",
-              "hakomc:gray_line_thin_a_3",
-              "hakomc:gray_line_thin_a_4",
-              "hakomc:gray_line_thin_a_5",
-              "hakomc:gray_line_thin_a_6",
-              "hakomc:gray_line_thin_a_7",
-              "hakomc:gray_line_thin_a_8",
-              "hakomc:gray_line_thin_a_9",
-              "hakomc:gray_line_thin_a_10",
-              "hakomc:gray_line_thin_a_11",
-              "hakomc:gray_line_thin_a_12",
-              "hakomc:gray_line_thin_a_13",
-              "hakomc:gray_line_thin_a_14",
-              "hakomc:gray_line_thin_a_15",
-              "hakomc:gray_line_thin_a_full"
-            ]
-          },
-          {
-            "group_identifier": {
-              "icon": "hakomc:gray_line_thin_b_full",
-              "name": "hakomc:gray_line_thin_b"
-            },
-            "items": [
-              "hakomc:gray_line_thin_b_1",
-              "hakomc:gray_line_thin_b_2",
-              "hakomc:gray_line_thin_b_3",
-              "hakomc:gray_line_thin_b_4",
-              "hakomc:gray_line_thin_b_5",
-              "hakomc:gray_line_thin_b_6",
-              "hakomc:gray_line_thin_b_7",
-              "hakomc:gray_line_thin_b_8",
-              "hakomc:gray_line_thin_b_9",
-              "hakomc:gray_line_thin_b_10",
-              "hakomc:gray_line_thin_b_11",
-              "hakomc:gray_line_thin_b_12",
-              "hakomc:gray_line_thin_b_13",
-              "hakomc:gray_line_thin_b_14",
-              "hakomc:gray_line_thin_b_15",
-              "hakomc:gray_line_thin_b_full"
-            ]
-          },
-          {
-            "group_identifier": {
               "icon": "hakomc:gray_line_thick_a_full",
               "name": "hakomc:gray_line_thick_a"
             },
@@ -171,6 +123,57 @@
               "hakomc:gray_line_thick_b_14",
               "hakomc:gray_line_thick_b_15",
               "hakomc:gray_line_thick_b_full"
+            ]
+          },
+          {
+            "items": ["hakomc:gray_line_thin_multi"]
+          },
+          {
+            "group_identifier": {
+              "icon": "hakomc:gray_line_thin_a_full",
+              "name": "hakomc:gray_line_thin_a"
+            },
+            "items": [
+              "hakomc:gray_line_thin_a_1",
+              "hakomc:gray_line_thin_a_2",
+              "hakomc:gray_line_thin_a_3",
+              "hakomc:gray_line_thin_a_4",
+              "hakomc:gray_line_thin_a_5",
+              "hakomc:gray_line_thin_a_6",
+              "hakomc:gray_line_thin_a_7",
+              "hakomc:gray_line_thin_a_8",
+              "hakomc:gray_line_thin_a_9",
+              "hakomc:gray_line_thin_a_10",
+              "hakomc:gray_line_thin_a_11",
+              "hakomc:gray_line_thin_a_12",
+              "hakomc:gray_line_thin_a_13",
+              "hakomc:gray_line_thin_a_14",
+              "hakomc:gray_line_thin_a_15",
+              "hakomc:gray_line_thin_a_full"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "hakomc:gray_line_thin_b_full",
+              "name": "hakomc:gray_line_thin_b"
+            },
+            "items": [
+              "hakomc:gray_line_thin_b_1",
+              "hakomc:gray_line_thin_b_2",
+              "hakomc:gray_line_thin_b_3",
+              "hakomc:gray_line_thin_b_4",
+              "hakomc:gray_line_thin_b_5",
+              "hakomc:gray_line_thin_b_6",
+              "hakomc:gray_line_thin_b_7",
+              "hakomc:gray_line_thin_b_8",
+              "hakomc:gray_line_thin_b_9",
+              "hakomc:gray_line_thin_b_10",
+              "hakomc:gray_line_thin_b_11",
+              "hakomc:gray_line_thin_b_12",
+              "hakomc:gray_line_thin_b_13",
+              "hakomc:gray_line_thin_b_14",
+              "hakomc:gray_line_thin_b_15",
+              "hakomc:gray_line_thin_b_full"
             ]
           },
           {

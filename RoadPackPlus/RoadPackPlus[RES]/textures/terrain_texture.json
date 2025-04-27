@@ -39,6 +39,9 @@
     },
     "joukei1": {
       "textures": "textures/blocks/joukei1"
+    },
+    "gray_line_thin_multi": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_thin_multi"
     }
   }
 }
