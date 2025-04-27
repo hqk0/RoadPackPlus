@@ -3,3 +3,4 @@ node_modules
 .DS_Store
 esbuild_local.js
 src/sample.js
+package-lock.json

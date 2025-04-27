@@ -2,26 +2,27 @@
   "format_version": "1.20.20",
   "minecraft:block": {
     "description": {
-      "identifier": "hakomc:gray_cp_11"
+      "identifier": "hakomc:gray_line_thin_multi"
     },
     "components": {
+      "minecraft:custom_components": ["hakomc:line_rotation"],
       "tag:stone": {},
       "minecraft:loot": "",
-      "minecraft:map_color": "#545454",
-      "minecraft:geometry": "geometry.thin_11",
+      "minecraft:map_color": "#ffffff",
+      "minecraft:geometry": "geometry.thin_full",
       "minecraft:material_instances": {
         "*": {
-          "texture": "gray",
-          "render_method": "opaque"
+          "render_method": "opaque",
+          "texture": "gray_line_thin_multi"
         }
       },
       "minecraft:collision_box": {
         "origin": [-8, 0, -8],
-        "size": [16, 11, 16]
+        "size": [16, 16, 16]
       },
       "minecraft:selection_box": {
         "origin": [-8, 0, -8],
-        "size": [16, 11, 16]
+        "size": [16, 16, 16]
       },
       "minecraft:light_dampening": 0,
       "minecraft:destructible_by_explosion": {
