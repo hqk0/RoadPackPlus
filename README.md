@@ -4,9 +4,8 @@
 
 動作確認済み端末
 
-- iPadOS版・Windows版 Minecraft Bedrock Edition V1.21.40
-
-- Android版 Minecraft Bedrock Edition V1.21.50
+- iPadOS版 Minecraft Bedrock Edition V1.21.71
+- Android版 Minecraft Bedrock Edition V1.21.71
 
 # 対応バージョン
 
@@ -24,7 +23,7 @@
 
 # 更新ログ
 
-2025/4/24 V4.0.0 Update
+2025/4/27 V4.0.0 Update
 
 - フォームの使用を廃止し、クリエイティブインベントリから各種ブロックを取得できるようになりました。
 - 調整ツールではブロックを壊せなくしました。
