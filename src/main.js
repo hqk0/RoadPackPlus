@@ -1,4 +1,4 @@
-import { world } from "@minecraft/server";
+import { world, system } from "@minecraft/server";
 
 const OnUseOnItemComponent = {
   onUseOn(ev) {
@@ -8,7 +8,7 @@ const OnUseOnItemComponent = {
 };
 
 /** @type {import("@minecraft/server").BlockCustomComponent} */
-const BlockLineRotationComponent = {
+const BlockRotationComponent = {
   beforeOnPlayerPlace(ev) {
     const { player } = ev;
     if (!player) return; // Exit if the player is undefined
@@ -16,64 +16,32 @@ const BlockLineRotationComponent = {
     // Get the rotation using the function from earlier
     const playerYRotation = player.getRotation().y;
     const rotation = getPreciseRotation(playerYRotation);
-    const location = ev.block.location;
 
-    ev.cancel = true;
-    switch (rotation) {
-      case 0:
-      case 4:
-        // Place the block with a rotation of 0 degrees
-        player.runCommand(
-          `/setblock ${location.x} ${location.y} ${location.z} hakomc:gray_line_thin_a_full`,
-        );
-        break;
-      case 1:
-        // Place the block with a rotation of 135 degrees
-        player.runCommand(
-          `/setblock ${location.x} ${location.y} ${location.z} hakomc:gray_line_slanting_b_full`,
-        );
-        break;
-      case 2:
-      case 6:
-        // Place the block with a rotation of 90 degrees
-        player.runCommand(
-          `/setblock ${location.x} ${location.y} ${location.z} hakomc:gray_line_thin_b_full`,
-        );
-        break;
-      case 3:
-        // Place the block with a rotation of 135 degrees
-        player.runCommand(
-          `/setblock ${location.x} ${location.y} ${location.z} hakomc:gray_line_slanting_d_full`,
-        );
-        break;
-      case 5:
-        // Place the block with a rotation of 45 degrees
-        player.runCommand(
-          `/setblock ${location.x} ${location.y} ${location.z} hakomc:gray_line_slanting_a_full`,
-        );
-        break;
-      case 7:
-        // Place the block with a rotation of 135 degrees
-        player.runCommand(
-          `/setblock ${location.x} ${location.y} ${location.z} hakomc:gray_line_slanting_c_full`,
-        );
-        break;
-    }
+    ev.permutationToPlace = ev.permutationToPlace.withState(
+      "hakomc:rotation",
+      rotation,
+    );
   },
 };
 
 /** @param {number} playerYRotation */
 function getPreciseRotation(playerYRotation) {
-  // Transform player's head Y rotation to a positive
-  if (playerYRotation < 0) playerYRotation += 360;
-  // How many 8ths of 360 is the head rotation? - rounded
-  const rotation = Math.round(playerYRotation / 45);
+  // Transform player's head Y rotation to a positive 0-360 value
+  const angle = (playerYRotation + 360) % 360;
 
-  // 0 and 8 represent duplicate rotations (0 degrees and 360 degrees), so 0 is returned if the value of `rotation` is 16
-  return rotation !== 8 ? rotation : 0;
+  if (angle >= 0 && angle < 90) {
+    return 0; // North-East
+  } else if (angle >= 90 && angle < 180) {
+    return 1; // South-East
+  } else if (angle >= 180 && angle < 270) {
+    return 2; // South-West
+  } else {
+    // angle >= 270 && angle < 360
+    return 3; // North-West
+  }
 }
 
-world.beforeEvents.worldInitialize.subscribe(
+system.beforeEvents.startup.subscribe(
   ({ itemComponentRegistry, blockComponentRegistry }) => {
     itemComponentRegistry.registerCustomComponent(
       "hakomc:onuseon",
@@ -81,8 +49,8 @@ world.beforeEvents.worldInitialize.subscribe(
     );
 
     blockComponentRegistry.registerCustomComponent(
-      "hakomc:line_rotation",
-      BlockLineRotationComponent,
+      "hakomc:rotation",
+      BlockRotationComponent,
     );
   },
 );
