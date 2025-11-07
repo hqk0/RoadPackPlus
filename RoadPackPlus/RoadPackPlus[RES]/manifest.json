@@ -5,7 +5,7 @@
     "description": "§f道路に関するさまざまなブロックを追加します！。\n§bCreator: Hako",
     "version": [5, 0, 0],
     "uuid": "e3dbd62c-abc6-4068-8bc1-67e54516ff14",
-    "min_engine_version": [1, 21, 70]
+    "min_engine_version": [1, 21, 110]
   },
   "modules": [
     {
