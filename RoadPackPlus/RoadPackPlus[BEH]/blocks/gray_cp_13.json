@@ -29,8 +29,8 @@
       },
       "minecraft:friction": 0.4,
       "minecraft:flammable": {
-        "flame_odds": 0,
-        "burn_odds": 0
+        "catch_chance_modifier": 0,
+        "destroy_chance_modifier": 0
       }
     }
   }
