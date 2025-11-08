@@ -127,6 +127,20 @@
           },
           {
             "group_identifier": {
+              "icon": "hakomc:white_cross_thin_full",
+              "name": "hakomc:line_cross"
+            },
+            "items": [
+              "hakomc:white_cross_thin_full",
+              "hakomc:white_cross_thin_half",
+              "hakomc:white_cross_thick_full",
+              "hakomc:white_cross_thick_half",
+              "hakomc:white_cross_full",
+              "hakomc:white_cross_half"
+            ]
+          },
+          {
+            "group_identifier": {
               "icon": "hakomc:sokkou_new",
               "name": "hakomc:tokushu"
             },
