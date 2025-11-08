@@ -85,6 +85,15 @@
     "wh_t_thick_rev": {
       "textures": "textures/blocks/concrete_powder_gray_white_line_thick_thin_t"
     },
+    "wh_cross_thin": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_thin_cross"
+    },
+    "wh_cross_thick": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_thick_cross"
+    },
+    "wh_cross": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_thin_thick_cross"
+    },
     "joukei1": {
       "textures": "textures/blocks/joukei1"
     }
