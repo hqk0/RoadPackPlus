@@ -30,14 +30,14 @@ function getPreciseRotation(playerYRotation) {
   const angle = (playerYRotation + 360) % 360;
 
   if (angle >= 0 && angle < 90) {
-    return 0; // North-East
+    return 2; // North-East
   } else if (angle >= 90 && angle < 180) {
-    return 1; // South-East
+    return 3; // South-East
   } else if (angle >= 180 && angle < 270) {
-    return 2; // South-West
+    return 0; // South-West
   } else {
     // angle >= 270 && angle < 360
-    return 3; // North-West
+    return 1; // North-West
   }
 }
 
