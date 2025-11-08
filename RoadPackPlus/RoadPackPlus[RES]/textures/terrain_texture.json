@@ -55,6 +55,12 @@
     "or_slanting_d": {
       "textures": "textures/blocks/concrete_powder_gray_orange_line_slanting_d"
     },
+    "or_t_thin": {
+      "textures": "textures/blocks/concrete_powder_gray_orange_line_thin_t"
+    },
+    "or_t_thick": {
+      "textures": "textures/blocks/concrete_powder_gray_orange_line_thick_t"
+    },
     "wh_curve_a": {
       "textures": "textures/blocks/concrete_powder_gray_white_line_curve_a"
     },
@@ -67,11 +73,20 @@
     "wh_curve_d": {
       "textures": "textures/blocks/concrete_powder_gray_white_line_curve_d"
     },
+    "wh_t_thin": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_thin_t"
+    },
+    "wh_t_thin_rev": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_thin_thick_t"
+    },
+    "wh_t_thick": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_thick_t"
+    },
+    "wh_t_thick_rev": {
+      "textures": "textures/blocks/concrete_powder_gray_white_line_thick_thin_t"
+    },
     "joukei1": {
       "textures": "textures/blocks/joukei1"
-    },
-    "gray_line_thin_multi": {
-      "textures": "textures/blocks/concrete_powder_gray_white_line_thin_multi"
     }
   }
 }

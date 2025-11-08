@@ -77,198 +77,6 @@
               "hakomc:white_cp_full"
             ]
           },
-          // {
-          //   "group_identifier": {
-          //     "icon": "hakomc:gray_line_thick_a_full",
-          //     "name": "hakomc:gray_line_thick_a"
-          //   },
-          //   "items": [
-          //     "hakomc:gray_line_thick_a_1",
-          //     "hakomc:gray_line_thick_a_2",
-          //     "hakomc:gray_line_thick_a_3",
-          //     "hakomc:gray_line_thick_a_4",
-          //     "hakomc:gray_line_thick_a_5",
-          //     "hakomc:gray_line_thick_a_6",
-          //     "hakomc:gray_line_thick_a_7",
-          //     "hakomc:gray_line_thick_a_8",
-          //     "hakomc:gray_line_thick_a_9",
-          //     "hakomc:gray_line_thick_a_10",
-          //     "hakomc:gray_line_thick_a_11",
-          //     "hakomc:gray_line_thick_a_12",
-          //     "hakomc:gray_line_thick_a_13",
-          //     "hakomc:gray_line_thick_a_14",
-          //     "hakomc:gray_line_thick_a_15",
-          //     "hakomc:gray_line_thick_a_full"
-          //   ]
-          // },
-          // {
-          //   "group_identifier": {
-          //     "icon": "hakomc:gray_line_thick_b_full",
-          //     "name": "hakomc:gray_line_thick_b"
-          //   },
-          //   "items": [
-          //     "hakomc:gray_line_thick_b_1",
-          //     "hakomc:gray_line_thick_b_2",
-          //     "hakomc:gray_line_thick_b_3",
-          //     "hakomc:gray_line_thick_b_4",
-          //     "hakomc:gray_line_thick_b_5",
-          //     "hakomc:gray_line_thick_b_6",
-          //     "hakomc:gray_line_thick_b_7",
-          //     "hakomc:gray_line_thick_b_8",
-          //     "hakomc:gray_line_thick_b_9",
-          //     "hakomc:gray_line_thick_b_10",
-          //     "hakomc:gray_line_thick_b_11",
-          //     "hakomc:gray_line_thick_b_12",
-          //     "hakomc:gray_line_thick_b_13",
-          //     "hakomc:gray_line_thick_b_14",
-          //     "hakomc:gray_line_thick_b_15",
-          //     "hakomc:gray_line_thick_b_full"
-          //   ]
-          // },
-          // {
-          //   "group_identifier": {
-          //     "icon": "hakomc:gray_line_thin_a_full",
-          //     "name": "hakomc:gray_line_thin_a"
-          //   },
-          //   "items": [
-          //     "hakomc:gray_line_thin_a_1",
-          //     "hakomc:gray_line_thin_a_2",
-          //     "hakomc:gray_line_thin_a_3",
-          //     "hakomc:gray_line_thin_a_4",
-          //     "hakomc:gray_line_thin_a_5",
-          //     "hakomc:gray_line_thin_a_6",
-          //     "hakomc:gray_line_thin_a_7",
-          //     "hakomc:gray_line_thin_a_8",
-          //     "hakomc:gray_line_thin_a_9",
-          //     "hakomc:gray_line_thin_a_10",
-          //     "hakomc:gray_line_thin_a_11",
-          //     "hakomc:gray_line_thin_a_12",
-          //     "hakomc:gray_line_thin_a_13",
-          //     "hakomc:gray_line_thin_a_14",
-          //     "hakomc:gray_line_thin_a_15",
-          //     "hakomc:gray_line_thin_a_full"
-          //   ]
-          // },
-          // {
-          //   "group_identifier": {
-          //     "icon": "hakomc:gray_line_thin_b_full",
-          //     "name": "hakomc:gray_line_thin_b"
-          //   },
-          //   "items": [
-          //     "hakomc:gray_line_thin_b_1",
-          //     "hakomc:gray_line_thin_b_2",
-          //     "hakomc:gray_line_thin_b_3",
-          //     "hakomc:gray_line_thin_b_4",
-          //     "hakomc:gray_line_thin_b_5",
-          //     "hakomc:gray_line_thin_b_6",
-          //     "hakomc:gray_line_thin_b_7",
-          //     "hakomc:gray_line_thin_b_8",
-          //     "hakomc:gray_line_thin_b_9",
-          //     "hakomc:gray_line_thin_b_10",
-          //     "hakomc:gray_line_thin_b_11",
-          //     "hakomc:gray_line_thin_b_12",
-          //     "hakomc:gray_line_thin_b_13",
-          //     "hakomc:gray_line_thin_b_14",
-          //     "hakomc:gray_line_thin_b_15",
-          //     "hakomc:gray_line_thin_b_full"
-          //   ]
-          // },
-          // {
-          //   "group_identifier": {
-          //     "icon": "hakomc:gray_line_slanting_a_full",
-          //     "name": "hakomc:gray_line_slanting_a"
-          //   },
-          //   "items": [
-          //     "hakomc:gray_line_slanting_a_1",
-          //     "hakomc:gray_line_slanting_a_2",
-          //     "hakomc:gray_line_slanting_a_3",
-          //     "hakomc:gray_line_slanting_a_4",
-          //     "hakomc:gray_line_slanting_a_5",
-          //     "hakomc:gray_line_slanting_a_6",
-          //     "hakomc:gray_line_slanting_a_7",
-          //     "hakomc:gray_line_slanting_a_8",
-          //     "hakomc:gray_line_slanting_a_9",
-          //     "hakomc:gray_line_slanting_a_10",
-          //     "hakomc:gray_line_slanting_a_11",
-          //     "hakomc:gray_line_slanting_a_12",
-          //     "hakomc:gray_line_slanting_a_13",
-          //     "hakomc:gray_line_slanting_a_14",
-          //     "hakomc:gray_line_slanting_a_15",
-          //     "hakomc:gray_line_slanting_a_full"
-          //   ]
-          // },
-          // {
-          //   "group_identifier": {
-          //     "icon": "hakomc:gray_line_slanting_b_full",
-          //     "name": "hakomc:gray_line_slanting_b"
-          //   },
-          //   "items": [
-          //     "hakomc:gray_line_slanting_b_1",
-          //     "hakomc:gray_line_slanting_b_2",
-          //     "hakomc:gray_line_slanting_b_3",
-          //     "hakomc:gray_line_slanting_b_4",
-          //     "hakomc:gray_line_slanting_b_5",
-          //     "hakomc:gray_line_slanting_b_6",
-          //     "hakomc:gray_line_slanting_b_7",
-          //     "hakomc:gray_line_slanting_b_8",
-          //     "hakomc:gray_line_slanting_b_9",
-          //     "hakomc:gray_line_slanting_b_10",
-          //     "hakomc:gray_line_slanting_b_11",
-          //     "hakomc:gray_line_slanting_b_12",
-          //     "hakomc:gray_line_slanting_b_13",
-          //     "hakomc:gray_line_slanting_b_14",
-          //     "hakomc:gray_line_slanting_b_15",
-          //     "hakomc:gray_line_slanting_b_full"
-          //   ]
-          // },
-          // {
-          //   "group_identifier": {
-          //     "icon": "hakomc:gray_line_slanting_c_full",
-          //     "name": "hakomc:gray_line_slanting_c"
-          //   },
-          //   "items": [
-          //     "hakomc:gray_line_slanting_c_1",
-          //     "hakomc:gray_line_slanting_c_2",
-          //     "hakomc:gray_line_slanting_c_3",
-          //     "hakomc:gray_line_slanting_c_4",
-          //     "hakomc:gray_line_slanting_c_5",
-          //     "hakomc:gray_line_slanting_c_6",
-          //     "hakomc:gray_line_slanting_c_7",
-          //     "hakomc:gray_line_slanting_c_8",
-          //     "hakomc:gray_line_slanting_c_9",
-          //     "hakomc:gray_line_slanting_c_10",
-          //     "hakomc:gray_line_slanting_c_11",
-          //     "hakomc:gray_line_slanting_c_12",
-          //     "hakomc:gray_line_slanting_c_13",
-          //     "hakomc:gray_line_slanting_c_14",
-          //     "hakomc:gray_line_slanting_c_15",
-          //     "hakomc:gray_line_slanting_c_full"
-          //   ]
-          // },
-          // {
-          //   "group_identifier": {
-          //     "icon": "hakomc:gray_line_slanting_d_full",
-          //     "name": "hakomc:gray_line_slanting_d"
-          //   },
-          //   "items": [
-          //     "hakomc:gray_line_slanting_d_1",
-          //     "hakomc:gray_line_slanting_d_2",
-          //     "hakomc:gray_line_slanting_d_3",
-          //     "hakomc:gray_line_slanting_d_4",
-          //     "hakomc:gray_line_slanting_d_5",
-          //     "hakomc:gray_line_slanting_d_6",
-          //     "hakomc:gray_line_slanting_d_7",
-          //     "hakomc:gray_line_slanting_d_8",
-          //     "hakomc:gray_line_slanting_d_9",
-          //     "hakomc:gray_line_slanting_d_10",
-          //     "hakomc:gray_line_slanting_d_11",
-          //     "hakomc:gray_line_slanting_d_12",
-          //     "hakomc:gray_line_slanting_d_13",
-          //     "hakomc:gray_line_slanting_d_14",
-          //     "hakomc:gray_line_slanting_d_15",
-          //     "hakomc:gray_line_slanting_d_full"
-          //   ]
-          // },
           {
             "group_identifier": {
               "icon": "hakomc:white_thin_full",
@@ -295,6 +103,26 @@
               "hakomc:orange_thin_half",
               "hakomc:orange_slanting_full",
               "hakomc:orange_slanting_half"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "hakomc:white_t_thin_full",
+              "name": "hakomc:line_t"
+            },
+            "items": [
+              "hakomc:white_t_thin_full",
+              "hakomc:white_t_thin_half",
+              "hakomc:white_t_thin_rev_full",
+              "hakomc:white_t_thin_rev_half",
+              "hakomc:white_t_thick_full",
+              "hakomc:white_t_thick_half",
+              "hakomc:white_t_thick_rev_full",
+              "hakomc:white_t_thick_rev_half",
+              "hakomc:orange_t_thin_full",
+              "hakomc:orange_t_thin_half",
+              "hakomc:orange_t_thick_full",
+              "hakomc:orange_t_thick_half"
             ]
           },
           {
