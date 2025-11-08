@@ -4,8 +4,9 @@
 
 動作確認済み端末
 
-- iPadOS版 Minecraft Bedrock Edition V1.21.71
-- Android版 Minecraft Bedrock Edition V1.21.71
+- iPadOS版 Minecraft Bedrock Edition V1.21.120
+- Windows版 Minecraft Bedrock Edition V1.21.120
+- Android版 Minecraft Bedrock Edition V1.21.114
 
 # 対応バージョン
 
