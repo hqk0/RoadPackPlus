@@ -28,10 +28,10 @@
           "texture": "gray"
         },
         "west": {
-          "texture": "wh_thin_a"
+          "texture": "or_thin_a"
         },
         "east": {
-          "texture": "wh_thin_a"
+          "texture": "or_thin_a"
         },
         "down": {
           "texture": "gray"
