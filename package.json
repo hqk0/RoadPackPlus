@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@minecraft/server": "^1.18.0",
+    "@minecraft/server": "^2.2.0",
     "esbuild": "^0.25.3"
   }
 }

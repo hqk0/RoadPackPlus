@@ -1,0 +1,174 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "hakomc:orange_slanting_half",
+      "states": {
+        "hakomc:rotation": {
+          "values": { "min": 0, "max": 3 }
+        }
+      }
+    },
+    "components": {
+      "minecraft:custom_components": ["hakomc:rotation"],
+      "tag:stone": {},
+      "minecraft:loot": "",
+      "minecraft:map_color": "#ffffff",
+      "minecraft:geometry": "geometry.thin_8",
+      "minecraft:material_instances": {
+        "*": {
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "or_slanting_a"
+        },
+        "north": {
+          "texture": "or_thin_a"
+        },
+        "south": {
+          "texture": "gray"
+        },
+        "west": {
+          "texture": "or_thin_a"
+        },
+        "east": {
+          "texture": "gray"
+        },
+        "down": {
+          "texture": "gray"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 8, 16]
+      },
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 8, 16]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6400
+      },
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": {
+        "catch_chance_modifier": 0,
+        "destroy_chance_modifier": 0
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('hakomc:rotation') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "or_slanting_a"
+            },
+            "north": {
+              "texture": "or_thin_a"
+            },
+            "south": {
+              "texture": "gray"
+            },
+            "west": {
+              "texture": "or_thin_a"
+            },
+            "east": {
+              "texture": "gray"
+            },
+            "down": {
+              "texture": "gray"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('hakomc:rotation') == 3",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "or_slanting_b"
+            },
+            "north": {
+              "texture": "gray"
+            },
+            "south": {
+              "texture": "or_thin_a"
+            },
+            "west": {
+              "texture": "gray"
+            },
+            "east": {
+              "texture": "or_thin_a"
+            },
+            "down": {
+              "texture": "gray"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('hakomc:rotation') == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "or_slanting_c"
+            },
+            "north": {
+              "texture": "or_thin_a"
+            },
+            "south": {
+              "texture": "gray"
+            },
+            "west": {
+              "texture": "gray"
+            },
+            "east": {
+              "texture": "or_thin_a"
+            },
+            "down": {
+              "texture": "gray"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('hakomc:rotation') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "or_slanting_d"
+            },
+            "north": {
+              "texture": "gray"
+            },
+            "south": {
+              "texture": "or_thin_a"
+            },
+            "west": {
+              "texture": "or_thin_a"
+            },
+            "east": {
+              "texture": "gray"
+            },
+            "down": {
+              "texture": "gray"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
